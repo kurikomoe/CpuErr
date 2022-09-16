@@ -1,0 +1,7 @@
+1. build glibc: ./build_glibc.sh
+2. ./build.sh
+
+gdb ./main
+(gdb)> b memcmp
+(gdb)> r
+(gdb)> layout asm/src
